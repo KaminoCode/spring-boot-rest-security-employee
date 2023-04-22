@@ -9,6 +9,7 @@
         <module name="cruddemo" />
         <module name="04-spring-boot-rest-crud-spring-data-rest" />
         <module name="03-spring-boot-rest-crud-spring-data-jpa" />
+        <module name="02-spring-boot-rest-security-jdbc-auth-plaintext" />
         <module name="01-spring-boot-rest-security-employee-starter" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-spring-boot-rest-security-employee-starter" options="-parameters" />
+      <module name="02-spring-boot-rest-security-jdbc-auth-plaintext" options="-parameters" />
       <module name="03-spring-boot-rest-crud-spring-data-jpa" options="-parameters" />
       <module name="04-spring-boot-rest-crud-spring-data-rest" options="-parameters" />
       <module name="cruddemo" options="-parameters" />
